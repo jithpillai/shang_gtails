@@ -25242,9 +25242,9 @@ blockquote cite {
   min-width: -moz-min-content;
   min-width: min-content;
   display: grid;
-  grid-template-areas: "header header" "column content";
-  grid-template-columns: auto 1fr;
-  grid-template-rows: auto 1fr;
+  grid--areas: "header header" "column content";
+  grid--columns: auto 1fr;
+  grid--rows: auto 1fr;
   background-color: #fff;
   padding: 12px;
   border-radius: 4px;
@@ -25353,7 +25353,7 @@ blockquote cite {
   column-gap: 6px;
   grid-row-gap: 12px;
   row-gap: 12px;
-  grid-template-columns: repeat(4, 1fr);
+  grid--columns: repeat(4, 1fr);
   background-color: #fff;
   flex-grow: 1;
   align-items: center;
@@ -25426,7 +25426,7 @@ blockquote cite {
   column-gap: 6px;
   grid-row-gap: 12px;
   row-gap: 12px;
-  grid-template-columns: repeat(5, 1fr);
+  grid--columns: repeat(5, 1fr);
   background-color: #fff;
   flex-grow: 1;
   align-items: center;
@@ -25493,7 +25493,7 @@ blockquote cite {
 }
 .vanilla-calendar-week {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid--columns: repeat(7, 1fr);
   grid-column-gap: 5px;
   -moz-column-gap: 5px;
   column-gap: 5px;
@@ -25526,7 +25526,7 @@ blockquote cite {
 }
 .vanilla-calendar-days {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid--columns: repeat(7, 1fr);
   grid-column-gap: 5px;
   -moz-column-gap: 5px;
   column-gap: 5px;
