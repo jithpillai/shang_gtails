@@ -25724,3 +25724,16 @@ blockquote cite {
 a {
     color: #551c01;
 }
+
+@media only screen and (min-device-width: 300px){
+  .iframebox {
+    min-height: 680px;
+  }
+}
+
+
+@media only screen and (min-device-width: 768px){
+  .iframebox {
+    min-height: 780px;
+  }
+}
